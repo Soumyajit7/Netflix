@@ -6,12 +6,12 @@ console.log()
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_firebase_apiKey,
-    authDomain: process.env.REACT_APP_firebase_authDomain,
-    projectId: process.env.REACT_APP_firebase_projectId,
-    storageBucket: process.env.REACT_APP_firebase_storageBucket,
-    messagingSenderId: process.env.REACT_APP_firebase_messagingSenderId,
-    appId: process.env.REACT_APP_firebase_appId,
-    measurementId: process.env.REACT_APP_firebase_measurementId
+    authDomain: "react-netflix-clone-f90bc.firebaseapp.com",
+    projectId: "react-netflix-clone-f90bc",
+    storageBucket: "react-netflix-clone-f90bc.appspot.com",
+    messagingSenderId: "550600922056",
+    appId: "1:550600922056:web:bc846e93cad6537138a6fd",
+    measurementId: "G-53SQCXM4C2"
 };
 
 
