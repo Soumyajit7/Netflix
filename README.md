@@ -21,8 +21,8 @@ npm start
 
 - Home Page
 
-![Alt text](./screenshots/home.PNG?raw=true "Home")
-![Alt text](./screenshots/home2.PNG?raw=true "Home2")
+![Alt text](./screenshots/Home.PNG?raw=true "Home")
+![Alt text](./screenshots/Home2.PNG?raw=true "Home2")
 
 - Movies Page
 
