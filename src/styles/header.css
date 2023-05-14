@@ -1,0 +1,32 @@
+.header_container {
+    border: 0px solid #fff;
+}
+
+.header_container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.netflix_logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: var(--theme-color);
+    fill: currentColor;
+    display: block;
+}
+
+.logo {
+    /* border: 1px solid #fff; */
+    float: left;
+    padding: 2rem;
+    margin-left: 9rem;
+}
+
+.header_btn {
+    /* border: 1px solid #fff; */
+    float: right;
+    padding: 2rem;
+    margin-right: 10rem;
+}

@@ -1,0 +1,28 @@
+.player_container {
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+.player {
+    width: 100vw;
+    height: 100%;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+.back {
+    position: absolute;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.back svg {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

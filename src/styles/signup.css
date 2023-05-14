@@ -1,0 +1,73 @@
+.signup_container {
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 8, 29, 0.7), rgba(0, 8, 29, 0.7)), url('../assets/backgroundimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 15vh 85vh;
+}
+
+.signup_body {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: var(--theme-color);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.signup_container h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.signup_container h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem;
+}
+
+.signup_container h6 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.form {
+    display: flex;
+    padding: 10px;
+}
+
+.input_field {
+    font-size: 1rem;
+    padding: 20px;
+    margin-right: 2px;
+    border: none;
+    outline: none;
+}
+
+.getstartbtn {
+    font-size: 1.2rem;
+    padding: 0 30px;
+}

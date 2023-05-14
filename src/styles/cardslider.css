@@ -1,0 +1,43 @@
+.cardSlider_container {
+    gap: 1rem;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.cardSlider_container h1 {
+    margin-left: 50px;
+}
+
+.cardSlider_container .slider {
+    width: max-content;
+    gap: 1rem;
+    transform: translateX(0px);
+    transition: 0.3s ease-in-out;
+    margin-left: 50px;
+}
+
+.cardSlider_container .slider-action {
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.cardSlider_container svg {
+    font-size: 2rem;
+}
+
+.cardSlider_container .none {
+    display: none;
+}
+
+.cardSlider_container .left {
+    left: 0;
+}
+
+.cardSlider_container .right {
+    right: 0;
+}

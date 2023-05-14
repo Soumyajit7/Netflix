@@ -1,0 +1,54 @@
+.navbar_container {
+    /* border-bottom: 1px solid #333; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* animation-name: fade;
+    animation-duration: 0.5s; */
+}
+
+.logo_container {
+    border: 0px solid #fff;
+}
+
+.netflix_nav_logo {
+    width: 5.55rem;
+    height: 1.5rem;
+}
+
+.nav_items {
+    /* border: 2px solid #fff; */
+    padding: 1.2rem;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.nav_item:hover {
+    color: #fff;
+}
+
+.nav_items .active {
+    color: #fff;
+    border-bottom: 3px solid var(--theme-color);
+}
+
+.nav_item {
+    padding: 1.1rem;
+}
+
+.nav_user {
+    border: 0px solid #fff;
+}
+
+.icon {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.logout {
+    color: var(--theme-color);
+}
