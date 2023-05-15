@@ -13,7 +13,8 @@ const Navbar = ({ navItem }) => {
     const [endPoint, setEndPoint] = useState("");
 
     const handleLogOut = async () => {
-        await signOut(firebaseAuth)
+        await signOut(firebaseAuth);
+        navigate("/signin");
     }
 
     useEffect(() => {

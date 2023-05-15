@@ -20,12 +20,12 @@ const UserListedContents = () => {
     useEffect(() => {
         onAuthStateChanged(firebaseAuth, (currentUser) => {
             if (currentUser) setEmail(currentUser.email);
-            else navigate("/signin");
+            else navigate("/signup");
         });
         // eslint-disable-next-line
     }, [onAuthStateChanged])
 
-    
+
     useEffect(() => {
         if (email) {
             dispatch(getUsersLikedMovies(email));
@@ -58,7 +58,7 @@ const UserListedContents = () => {
                                     />
                                 );
                             })
-                            : <NotAvailable /> 
+                            : <NotAvailable />
                     }
                 </div>
             </div>

@@ -32,7 +32,7 @@ const TvShows = () => {
 
     useEffect(() => {
         onAuthStateChanged(firebaseAuth, (currentUser) => {
-            if (!currentUser) navigate("/signin");
+            if (!currentUser) navigate("/signup");
         });
         // eslint-disable-next-line
     }, [onAuthStateChanged])

@@ -24,7 +24,7 @@ export default React.memo(function Card({ movieData, index, isLiked = false }) {
     useEffect(() => {
         onAuthStateChanged(firebaseAuth, (currentUser) => {
             if (currentUser) setUser(currentUser.email);
-            else navigate("/signin");
+            else navigate("/signup");
         });
         // eslint-disable-next-line 
     }, [onAuthStateChanged])

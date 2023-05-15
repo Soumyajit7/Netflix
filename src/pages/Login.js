@@ -68,11 +68,11 @@ const Login = () => {
                             <span>New to Netflix? </span>
                             <Link to="/signup">Sign up now</Link>
                         </div>
-                        <div className='google_btn_container'>
+                        {/* <div className='google_btn_container'>
                             <button type="button" className="login-with-google-btn" >
                                 Sign in with Google
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
